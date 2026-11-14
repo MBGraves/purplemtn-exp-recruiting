@@ -33,11 +33,23 @@
 
     <section class="hero" aria-label="Introduction">
       <div class="hero-media" aria-hidden="true">
+        <video
+          class="hero-video"
+          autoplay
+          muted
+          loop
+          playsinline
+          preload="metadata"
+          poster="./hero-poster.jpg"
+        >
+          <source src="./hero-background.mp4" type="video/mp4" />
+        </video>
         <img
-          src="./hero-mountains.jpg"
+          class="hero-poster"
+          src="./hero-poster.jpg"
           alt=""
-          width="2400"
-          height="1600"
+          width="1920"
+          height="1080"
           fetchpriority="high"
         />
         <div class="hero-shade"></div>
