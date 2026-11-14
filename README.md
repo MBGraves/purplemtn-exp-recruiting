@@ -9,21 +9,22 @@ cd purplemtn-exp-recruiting
 npm run dev
 ```
 
-Opens a static server on **http://127.0.0.1:5173** (serves `public/`).
+Opens a static server on **http://127.0.0.1:5173** (serves the site from the repo root).
 
 Or without npm scripts:
 
 ```bash
-npx --yes serve public -l 5173
+npx --yes serve . -l 5173
 # or
-python3 -m http.server 5173 --bind 127.0.0.1 --directory public
+python3 -m http.server 5173 --bind 127.0.0.1
 ```
 
 ## Contents
 
-- `public/index.html` — recruiting page
-- `public/styles.css` — layout & motion
-- `public/app.js` — scroll reveal
-- `public/hero-mountains.jpg` — full-bleed hero visual
+- `index.html` — recruiting page
+- `styles.css` — layout & motion
+- `app.js` — scroll reveal
+- `hero-mountains.jpg` — full-bleed hero visual
+- `purplemtn-premier-group-logo.png` — brand logo
 
 Research brief (Project store): `docs/exp-realty-recruiting-brief.md`

@@ -4,8 +4,8 @@
   "version": "1.0.0",
   "description": "PurpleMtn Premier Group at eXp Realty — agent recruiting landing page",
   "scripts": {
-    "dev": "npx --yes serve public -l 5173",
-    "start": "npx --yes serve public -l 5173",
-    "preview": "npx --yes serve public -l 5173"
+    "dev": "npx --yes serve . -l 5173",
+    "start": "npx --yes serve . -l 5173",
+    "preview": "npx --yes serve . -l 5173"
   }
 }
